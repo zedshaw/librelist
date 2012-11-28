@@ -1,0 +1,15 @@
+Title:  Librelist Is Now Fully Functional
+
+Alright, I managed to get all of the basic features going for librelist.com
+early.
+
+* Bounce detection is working great, but still needs more real world beatings.
+* When you subscribe, if the list doesn't exist, it sends you some possible similar existing ones, just in case you spelled it wrong.
+* There's now web archives (very basic) at "/browser/":/browser/ that you can browse.
+* You can get the archives via rsync too, but don't be a jerkwad about this.  Find a path you want and then do @rsync -azv librelist.com::archives/PATH@ and you'll get a maildir.
+* Emails in the archive are stripped of most useless headers and the sender's name is cleaned up a bit.  It's not fool-proof, but then again you are sending your address on the internets to a public list, so I hope you are wearing protection.
+
+For now that's all the work I'm going to do on librelist while I work on the
+Lamson 1.0pre1 release tomorrow.
+
+

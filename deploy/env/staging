@@ -1,0 +1,44 @@
+# An deploy/env file contains the settings and special functions
+# for that environment.  
+
+
+LOG4SH_CONFIGURATION=deploy/log4sh.properties
+SOURCE=$HOME/source/librelist
+TARGET=$HOME/deploy/staging/librelist
+BACKUP=$HOME/deploy/backup/staging
+FAILS=$HOME/deploy/fails/staging
+
+
+function stop {
+    logger_info "Stopping staging deployment."
+    pushd $1
+    assert_in $1
+
+    lamson stop -ALL run
+    popd
+}
+
+
+function start {
+    logger_info "Starting staging deployment."
+    pushd $1
+    assert_in $1
+
+    lamson start
+    popd
+}
+
+
+function setup {
+    assert_in $SOURCE
+
+    mkdir -p $SOURCE
+    mkdir -p $TARGET
+    mkdir -p $BACKUP
+    mkdir -p $FAILS
+
+    rm -rf run/*
+    rm -rf app/data/archive/*
+}
+
+

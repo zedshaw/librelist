@@ -1,0 +1,5 @@
+
+
+grep -i confirm ~/deploy/lamson/examples/librelist/config/settings.py >> config/settings.py
+
+

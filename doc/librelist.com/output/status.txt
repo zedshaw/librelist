@@ -1,0 +1,19 @@
+Title: System Status
+
+As of 2009-12-12:
+
+Librelist is currently working, there are no planned outages any time soon.
+
+
+h2. Problem Sending/Receiving?
+
+If you are sending emails and not seeing a response, there could be two possible
+causes:
+
+# You are using google to host a domain that is not google.com.  Don't do this.  Send email from a real domain and server that matches.
+# You may have bounced and have been disabled.  Try sending an email to unbounce@librelist.com to reset your state.
+
+If it's neither of these, then please put in a "support ticket":http://support.librelist.com/ and indicate your email address so we can 
+reset your account.
+
+

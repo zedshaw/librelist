@@ -1,0 +1,27 @@
+imports [  
+    module(from "vellum.commands")
+]
+
+options(
+         default 'sync' 
+         sudo 'sudo'
+)
+
+
+depends(
+        sync ['gen']
+        )
+
+targets(
+        commit 
+            $ bzr commit
+
+        gen [
+            $ python webgen.py force
+        ]
+
+        sync [
+            $ rsync -av input/* output/
+            $ rsync -avuz output/* zedshaw@librelist.com:/var/www/librelist.com/
+        ]
+)

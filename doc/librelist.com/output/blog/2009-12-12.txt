@@ -1,0 +1,33 @@
+Title: A Few Updates To Librelist
+
+I've started working the "ticket queue":http://support.librelist.com/rptview?rn=2 and managed to get out a few
+little annoying things that people wanted or that were missing.  I'm still going to be doing
+deploys today in my attempt to get things cleaned up further, but so far I've done the following:
+
+<pre class="code">
+=== 2009-12-13 ===
+01:47:47 [3356e9d42c] *CURRENT* Stop altering the email addresses in the
+         archives. (user: zedshaw tags: trunk)
+01:40:30 [d7211e427a] The mailing list name is now added to the subject if not
+         there already. (user: zedshaw tags: trunk)
+01:29:33 [39d5ddc37b] New site layout done and pushed. (user: zedshaw tags:
+         trunk)
+=== 2009-12-12 ===
+23:36:37 [cc081005a1] Added the librelist website code. (user: zedshaw tags:
+         trunk)
+=== 2009-12-01 ===
+04:34:15 [0b6a443b36] Initial commit after moving from lamson project. (user:
+         zedshaw tags: trunk)
+04:32:14 [37f03800c8] initial empty check-in (user: zedshaw tags: trunk)
+</pre>
+
+What this means is there's a new site that is clean and simple, some cleaned up docs that
+will expand as I work on things, and a couple of new features:
+
+* List names are prepended to the subject line like [meta] if it's not in the subject already.
+* The archives no longer mangle email addresses with -AT-.  It wasn't helping and it made it too hard for people to archive.
+* You can now CC or multi-To a librelist and it'll get sent.  Previously I blocked these but too many people were doing it so I'm letting it go through.
+
+I'll be trying to close out as many of those defects as possible, so stay tuned.
+
+

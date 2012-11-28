@@ -1,0 +1,37 @@
+# An deploy/env file contains the settings and special functions
+# for that environment.  
+
+
+LOG4SH_CONFIGURATION=deploy/log4sh.properties
+SOURCE=$HOME/source/librelist
+TARGET=$HOME/deploy/prod/librelist
+BACKUP=$HOME/deploy/backup/prod
+FAILS=$HOME/deploy/fails/prod
+
+
+function stop {
+    logger_info "Stopping testing deployment."
+    ~/rc.d/mail stop
+}
+
+
+function start {
+    logger_info "Starting testing deployment."
+    ~/rc.d/mail start
+}
+
+
+function setup {
+    assert_in $SOURCE
+
+    mkdir -p $SOURCE
+    mkdir -p $TARGET
+    mkdir -p $BACKUP
+    mkdir -p $FAILS
+
+    rm -rf run/*
+    rm -rf app/data/archive/*
+    rm -rf logs/*
+}
+
+

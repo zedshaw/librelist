@@ -1,0 +1,147 @@
+div.wrapper {
+    font-family:Georgia,serif;
+    margin:0 auto;
+    padding-top:20px;
+    position:relative;
+    width:960px;
+}
+h1 a {
+    color:#222222;
+    font-size:60px;
+    letter-spacing:-2px;
+    padding:5px 5px 5px 0;
+    text-decoration:none;
+    word-spacing:5px;
+}
+h1 span {
+    color:#111;
+    font-weight:bold;
+}
+div.header {
+    clear: both;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+div.header ul li {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    float: left;
+    margin-right: 15px;
+}
+div.header ul li a {
+    color:#111;
+    text-transform: lowercase;
+    font-family: Arial, sans-serif;
+    display:block;
+    font-size:20px;
+    padding:2px;
+    text-decoration:none;
+}
+div.header ul li a:hover {
+    color:#c70000;
+}
+ul.notifications {
+    width:280px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 5px;
+    font-family: Arial, sans-serif;
+}
+ul.notifications li {
+    margin-bottom:10px;
+    overflow: hidden;
+    padding:5px;
+    border-bottom: 1px solid #eee;
+}
+
+ul.notifications li h3 {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+	font-weight: bold;
+}
+ul.notifications li div p {
+    padding-left:10px;
+    padding-right:10px;
+}
+ul.notifications li div p {
+    font-size:12px;
+    line-height:14px;
+}
+ul.notifications li div p a {
+    color:#333;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+ul.notifications li div p a:hover, div.post h2 a:hover, div.post a:hover {
+  	color:#c70000;
+	text-decoration: underline;
+}
+ul.notifications li.footer div p {
+    line-height:17px;
+}
+div.content {
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    width: 660px;
+}
+div.post {
+    border-bottom:2px dashed #eee;
+    padding-bottom:20px;
+    padding-top:10px;
+    margin-bottom: 20px;
+	font-size: 14px;
+}
+div.post p a, div.post ul li a {
+    color:#000000;
+    font-weight:bold;
+    text-decoration:none;
+}
+div.post p a:hover {
+    text-decoration:underline;
+}
+div.post pre.code {
+    background-color:#EEEEEE;
+    display:block;
+    font-family:"Courier New",Courier,mono;
+    font-size:14px;
+    line-height:17px;
+    margin:15px;
+    overflow:auto;
+    padding:5px;
+    position:inherit;
+}
+div.post h2 {
+    color:#111;
+    display:block;
+    font-size:21px;
+    font-weight: bold;
+	letter-spacing:-1px;
+	word-spacing: 4px;
+	margin-top: 30px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+}
+div.post h2 a {
+	color: #111;
+	text-decoration:none;
+	font-weight: bold;
+}
+div.post p, div.post ul {
+	padding:15px 25px 5px;
+	line-height: 20px;
+	font-family: Arial, sans-serif;
+}
+
+div.post ul li {
+    line-height: 23px;
+    margin-left: 45px;
+    list-style-type: square;
+}
+
+div.post ol li {
+    line-height: 23px;
+    margin-left: 45px;
+    list-style-type: decimal;
+}

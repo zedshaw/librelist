@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss version="2.0"><channel><title>librelist.com</title><link>http://librelist.com</link><description>No logins. No tracking. Just lists.</description><lastBuildDate>Mon, 14 Dec 2009 07:39:24 GMT</lastBuildDate><generator>PyRSS2Gen-1.0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A Few Updates To Librelist</title><link>http://librelist.com/blog/2009-12-12.html</link><description>&lt;h2&gt;&lt;a href="/blog/2009-12-12.html"&gt;2009-12-12&lt;/a&gt; : A Few Updates To Librelist&lt;/h2&gt;
+
+&lt;p&gt;	&lt;p&gt;I&amp;#8217;ve started working the &lt;a href="http://support.librelist.com/rptview?rn=2"&gt;ticket queue&lt;/a&gt; and managed to get out a few
+little annoying things that people wanted or that were missing.  I&amp;#8217;m still going to be doing
+deploys today in my attempt to get things cleaned up further, but so far I&amp;#8217;ve done the following:&lt;/p&gt;
+
+&lt;pre class="code"&gt;
+=== 2009-12-13 ===
+01:47:47 [3356e9d42c] *CURRENT* Stop altering the email addresses in the
+         archives. (user: zedshaw tags: trunk)
+01:40:30 [d7211e427a] The mailing list name is now added to the subject if not
+         there already. (user: zedshaw tags: trunk)
+01:29:33 [39d5ddc37b] New site layout done and pushed. (user: zedshaw tags:
+         trunk)
+=== 2009-12-12 ===
+23:36:37 [cc081005a1] Added the librelist website code. (user: zedshaw tags:
+         trunk)
+=== 2009-12-01 ===
+04:34:15 [0b6a443b36] Initial commit after moving from lamson project. (user:
+         zedshaw tags: trunk)
+04:32:14 [37f03800c8] initial empty check-in (user: zedshaw tags: trunk)
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="/blog/2009-12-12.html"&gt;Read more...&lt;/a&gt;&lt;/p&gt;
+</description><guid isPermaLink="true">http://librelist.com/blog/2009-12-12.html</guid><pubDate>Sun, 13 Dec 2009 00:11:55 GMT</pubDate></item><item><title>Librelist Is Now Fully Functional</title><link>http://librelist.com/blog/2009-07-19.html</link><description>&lt;h2&gt;&lt;a href="/blog/2009-07-19.html"&gt;2009-07-19&lt;/a&gt; : Librelist Is Now Fully Functional&lt;/h2&gt;
+
+&lt;p&gt;	&lt;p&gt;Alright, I managed to get all of the basic features going for librelist.com
+early.&lt;/p&gt;
+
+	&lt;ul&gt;
+		&lt;li&gt;Bounce detection is working great, but still needs more real world beatings.&lt;/li&gt;
+		&lt;li&gt;When you subscribe, if the list doesn&amp;#8217;t exist, it sends you some possible similar existing ones, just in case you spelled it wrong.&lt;/li&gt;
+		&lt;li&gt;There&amp;#8217;s now web archives (very basic) at &lt;a href="/browser/"&gt;/browser/&lt;/a&gt; that you can browse.&lt;/li&gt;
+		&lt;li&gt;You can get the archives via rsync too, but don&amp;#8217;t be a jerkwad about this.  Find a path you want and then do &lt;code&gt;rsync -azv librelist.com::archives/PATH&lt;/code&gt; and you&amp;#8217;ll get a maildir.&lt;/li&gt;
+		&lt;li&gt;Emails in the archive are stripped of most useless headers and the sender&amp;#8217;s name is cleaned up a bit.  It&amp;#8217;s not fool-proof, but then again you are sending your address on the internets to a public list, so I hope you are wearing protection.&lt;/li&gt;
+	&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="/blog/2009-07-19.html"&gt;Read more...&lt;/a&gt;&lt;/p&gt;
+</description><guid isPermaLink="true">http://librelist.com/blog/2009-07-19.html</guid><pubDate>Sat, 12 Dec 2009 17:05:26 GMT</pubDate></item><item><title>Site Launched</title><link>http://librelist.com/blog/2009-07-17.html</link><description>&lt;h2&gt;&lt;a href="/blog/2009-07-17.html"&gt;2009-07-17&lt;/a&gt; : Site Launched&lt;/h2&gt;
+
+&lt;p&gt;	&lt;p&gt;&lt;a href="http://librelist.com/"&gt;Librelist.com&lt;/a&gt; is the third &lt;a href="http://lamsonproject.org/"&gt;Lamson
+Project&lt;/a&gt; sample created to show off what
+Lamson can do.  It is a fully functioning mailing list system with
+advanced spam blocking and bounce handling.&lt;/p&gt;
+
+	&lt;p&gt;If you want to play with it, send an email to
+&lt;a href="mailto:test.list@librelist.com"&gt;test.list@librelist.com&lt;/a&gt; and you&amp;#8217;ll be
+able to test it out with a bunch of other folks.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="/blog/2009-07-17.html"&gt;Read more...&lt;/a&gt;&lt;/p&gt;
+</description><guid isPermaLink="true">http://librelist.com/blog/2009-07-17.html</guid><pubDate>Sat, 12 Dec 2009 17:02:13 GMT</pubDate></item></channel></rss>

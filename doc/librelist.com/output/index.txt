@@ -1,0 +1,50 @@
+From: Zed
+Title: Welcome to librelist.com
+
+Librelist is a free as in freedom mailing list site for open source
+projects.  It is a place for FOSS communities to discuss all the things
+they want without ads, censorship, signup requirements, bundled apps, or
+requirements that you use any particular email client or service.
+
+h2. Anyone Can Make A List
+
+You can make a mailing list by simply sending an email to
+*list*@librelist.com, and if it doesn't exist, it will make it for you
+and subscribe you.  That's all there is to it, and no restrictions on
+making the lists.
+
+
+h2. Anyone Can Subscribe To A List
+
+You also subscribe to a list by simply sending your first message to
+*list*@librelist.com.  That's it.  It ditches your original message and
+sends you a confirmation you reply to.  No signup or web forms involved.
+
+
+h2. Spam And Bounce Blocking
+
+Spam is heavily blocked on all lists to keep things clean.  We will
+also periodically ban anonymous email services if they become a vector
+for abuse.
+
+Bounced emails are caught and anyone who bounces has all of their
+subscriptions paused until they can fix the problem and reinstate
+themselves.
+
+h2. Archives via Rsync
+
+All archives are accessible efficiently via rsync as maildir directories.
+This means you can host your mailing list archives on your project's site
+rather than directing users to Librelist.  Librelist also provides simple
+archive browsing for smaller projects that can't host themselves.
+
+You can read about it more in the "help":/help.html with more information
+being planned.
+
+
+h2. Support
+
+You can get support and other help by either joining *meta@librelist.com*
+or filing a ticket at the "support site":http://support.librelist.com/ 
+if it's a bug or feature request.
+

@@ -1,0 +1,19 @@
+From: Zed
+Title: About librelist.com
+
+<p>
+This site is "my":http://zedshaw.com/ contribution back to the FOSS
+community for giving me a long and varied career in software.  I
+wouldn't be the programmer I am today if it weren't for the vast
+amounts of good and bad code freely available to learn from.
+</p>
+
+This site will always be free for people, and will support itself
+through donation drives periodically if it becomes a financial
+burden to host.
+
+The code to librelist.com is also available GPL licensed in the
+"Lamson Project source releases":http://lamsonproject.org/releases/ 
+so you can run your own if you want.
+
+Enjoy!

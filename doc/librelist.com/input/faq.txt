@@ -1,0 +1,10 @@
+Title: Frequently Asked Questions
+
+These are questions people usually ask about librelist.com.
+
+h2. How Can I Test It?
+
+If you want to track the development of librelist.com then simple
+subscribe to "meta@librelist.com":mailto:meta@librelist.com and
+you can participate in shaping it.
+

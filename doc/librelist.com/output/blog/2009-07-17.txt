@@ -1,0 +1,20 @@
+Title: Site Launched
+
+"Librelist.com":http://librelist.com/ is the third "Lamson
+Project":http://lamsonproject.org/ sample created to show off what
+Lamson can do.  It is a fully functioning mailing list system with
+advanced spam blocking and bounce handling.
+
+If you want to play with it, send an email to
+"test.list@librelist.com":mailto:test.list@librelist.com and you'll be
+able to test it out with a bunch of other folks.
+
+Over the next week I'll be doing releases of librelist.com to match 
+Lamson releases, so more features will show up.  Top on the list
+are the "archives":/browser/ and the "list of lists":/lists/ as well
+as some tweaks to how mailing lists get created.
+
+If you have suggestions, bring them up in test.list for now.  There will
+be a new list shortly once librelist.com is out of beta.
+
+
