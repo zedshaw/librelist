@@ -1,3 +1,6 @@
+Librelist Mailing List Community Source
+=======================================
+
 This is the code to librelist.com, a free mailing list service I run mostly 
 as a good thing for open source projects.  I manage the service myself 
 in my free time, but I rarely have time to actually work on this code.
